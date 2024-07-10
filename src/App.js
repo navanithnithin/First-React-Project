@@ -2,11 +2,14 @@
 import 'bootstrap/dist/css/bootstrap.min.css';
 import './App.css';
 import Navbar from './components/Navbar';
+import LoginForm from './components/LoginPage';
+import Main from './components/MainPage';
 
 function App() {
   return (
     <div className="main">
-      <Navbar title="PC" num={9}></Navbar>
+      <Navbar></Navbar>
+      <Main ></Main>
     </div>
   );
 }
