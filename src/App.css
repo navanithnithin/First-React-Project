@@ -66,12 +66,7 @@
 .fontFam {
   font-family: "Open Sans", sans-serif;
 }
-.mainBack{
-  background-image: url(https://websitedemos.net/organic-shop-02/wp-content/uploads/sites/465/2019/06/leaves-free-img.png);
-  background-position: bottom right;
-  background-repeat: no-repeat;
-  background-size: 28% auto;
-}
+
 .shopBtn{
   background-color: #6A9739;
   border-radius: 5px;
@@ -80,4 +75,14 @@
   font-weight: 600;
   font-size: 14px;
   padding: 10px 20px 10px;
+}
+.cardBg{
+  background-color: #333333;
+
+}
+.iconcolor {
+  color: #8b8b8b ; 
+}
+.iconcolor:hover {
+  color: #8bc34a ; 
 }
