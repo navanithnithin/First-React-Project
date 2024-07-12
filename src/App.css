@@ -3,7 +3,6 @@
   height: 70.5px;
   padding-right: 10px;
 }
-
 .navBar {
   padding-top: 15px;
   padding-bottom: 15px;
@@ -67,7 +66,7 @@
   font-family: "Open Sans", sans-serif;
 }
 
-.shopBtn{
+.shopBtn {
   background-color: #6A9739;
   border-radius: 5px;
   border: none;
@@ -76,13 +75,42 @@
   font-size: 14px;
   padding: 10px 20px 10px;
 }
-.cardBg{
+
+.cardBg {
   background-color: #333333;
 
 }
+
 .iconcolor {
-  color: #8b8b8b ; 
+  color: #8b8b8b;
 }
+
 .iconcolor:hover {
-  color: #8bc34a ; 
+  color: #8bc34a;
 }
+
+.custBtnHover {
+  background-color: #ffffff;
+
+  i {
+    color: rgb(13, 110, 253);
+  }
+}
+
+.custBtnHover:hover {
+  background-color: rgb(13, 110, 253);
+  color: #ffffff;
+
+  i {
+    color: #ffffff;
+  }
+}
+
+.hoverclr {
+  color: blue;
+}
+/* ::selection {
+  color: red;
+  background: yellow;
+} */
+
