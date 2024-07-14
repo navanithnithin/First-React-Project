@@ -9,6 +9,8 @@ import MainPage03 from './components/MainPage03';
 import Footer from './components/Footer';
 import React, { useState } from 'react';
 import MainPage06 from './components/MainPage06';
+import MainPage07 from './components/MainPage07';
+import MainPage08 from './components/MainPage08';
 
 function App() {
   const [myBtnStyle, setmyBtnStyle] = useState({
@@ -58,6 +60,8 @@ function App() {
       <MainPage02></MainPage02>
       <MainPage03></MainPage03>
       <MainPage06></MainPage06>
+      <MainPage07></MainPage07>
+      <MainPage08></MainPage08>
       <Footer></Footer>
       <div className="offcanvas offcanvas-end d-flex flex-row bg-transparent border-0" style={{ width: "400PX" }} tabindex="-1" id="offcanvasRight" aria-labelledby="offcanvasRightLabel">
         <div className="d-flex flex-column bg-white">
