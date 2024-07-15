@@ -46,7 +46,7 @@ export default function Footer() {
         </div>
       </div>
 
-      <hr />
+      <hr style={{color: "white", opacity: "60%" }} />
       <div className='d-flex justify-content-between py-4'>
         <span className='text-white'>Copyright © 2024 | Organic Store</span>
         <div className=" d-flex flex-row w-25 justify-content-between hoverEffect">
