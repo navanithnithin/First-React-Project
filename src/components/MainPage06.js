@@ -14,11 +14,11 @@ export default function MainPage06() {
               Assorted Coffee
             </p>
             <span className='d-flex justify-content-center p-1'>
-              <i class="fa-regular fa-star" style={{ fontSize: "12px" }}></i>
-              <i class="fa-regular fa-star" style={{ fontSize: "12px" }}></i>
-              <i class="fa-regular fa-star" style={{ fontSize: "12px" }}></i>
-              <i class="fa-regular fa-star" style={{ fontSize: "12px" }}></i>
-              <i class="fa-regular fa-star" style={{ fontSize: "12px" }}></i>
+              <i className="fa-regular fa-star" style={{ fontSize: "12px" }}></i>
+              <i className="fa-regular fa-star" style={{ fontSize: "12px" }}></i>
+              <i className="fa-regular fa-star" style={{ fontSize: "12px" }}></i>
+              <i className="fa-regular fa-star" style={{ fontSize: "12px" }}></i>
+              <i className="fa-regular fa-star" style={{ fontSize: "12px" }}></i>
             </span>
             <p className='fw-bold'>₹ 350.00</p>
           </div>
@@ -31,11 +31,11 @@ export default function MainPage06() {
               Hand Sanitizer
             </p>
             <span className='d-flex justify-content-center p-1'>
-              <i class="fa-regular fa-star" style={{ fontSize: "12px" }}></i>
-              <i class="fa-regular fa-star" style={{ fontSize: "12px" }}></i>
-              <i class="fa-regular fa-star" style={{ fontSize: "12px" }}></i>
-              <i class="fa-regular fa-star" style={{ fontSize: "12px" }}></i>
-              <i class="fa-regular fa-star" style={{ fontSize: "12px" }}></i>
+              <i className="fa-regular fa-star" style={{ fontSize: "12px" }}></i>
+              <i className="fa-regular fa-star" style={{ fontSize: "12px" }}></i>
+              <i className="fa-regular fa-star" style={{ fontSize: "12px" }}></i>
+              <i className="fa-regular fa-star" style={{ fontSize: "12px" }}></i>
+              <i className="fa-regular fa-star" style={{ fontSize: "12px" }}></i>
             </span>
             <p className='fw-bold'>₹ 150.00</p>
           </div>
@@ -48,11 +48,11 @@ export default function MainPage06() {
             Handpicked Red Chillies
             </p>
             <span className='d-flex justify-content-center p-1'>
-              <i class="fa-regular fa-star" style={{ fontSize: "12px" }}></i>
-              <i class="fa-regular fa-star" style={{ fontSize: "12px" }}></i>
-              <i class="fa-regular fa-star" style={{ fontSize: "12px" }}></i>
-              <i class="fa-regular fa-star" style={{ fontSize: "12px" }}></i>
-              <i class="fa-regular fa-star" style={{ fontSize: "12px" }}></i>
+              <i className="fa-regular fa-star" style={{ fontSize: "12px" }}></i>
+              <i className="fa-regular fa-star" style={{ fontSize: "12px" }}></i>
+              <i className="fa-regular fa-star" style={{ fontSize: "12px" }}></i>
+              <i className="fa-regular fa-star" style={{ fontSize: "12px" }}></i>
+              <i className="fa-regular fa-star" style={{ fontSize: "12px" }}></i>
             </span>
             <p className='fw-bold'>₹ 190.00</p>
           </div>
@@ -65,11 +65,11 @@ export default function MainPage06() {
              Fresh Orange Juice
             </p>
             <span className='d-flex justify-content-center p-1'>
-              <i class="fa-regular fa-star" style={{ fontSize: "12px" }}></i>
-              <i class="fa-regular fa-star" style={{ fontSize: "12px" }}></i>
-              <i class="fa-regular fa-star" style={{ fontSize: "12px" }}></i>
-              <i class="fa-regular fa-star" style={{ fontSize: "12px" }}></i>
-              <i class="fa-regular fa-star" style={{ fontSize: "12px" }}></i>
+              <i className="fa-regular fa-star" style={{ fontSize: "12px" }}></i>
+              <i className="fa-regular fa-star" style={{ fontSize: "12px" }}></i>
+              <i className="fa-regular fa-star" style={{ fontSize: "12px" }}></i>
+              <i className="fa-regular fa-star" style={{ fontSize: "12px" }}></i>
+              <i className="fa-regular fa-star" style={{ fontSize: "12px" }}></i>
             </span>
             <p className='fw-bold'>₹ 180.00</p>
           </div>

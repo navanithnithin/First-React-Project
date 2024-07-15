@@ -9,11 +9,11 @@ export default function MainPage07() {
                 <div className='col-md-4'>
                     <div className='card shadow-lg border-0 d-flex align-items-center pb-3 mt-5 mx-3'>
                         <span className='d-flex justify-content-center p-1 mt-5'>
-                            <i class="fa-regular fa-star p-1" style={{ fontSize: "15px" }}></i>
-                            <i class="fa-regular fa-star p-1" style={{ fontSize: "15px" }}></i>
-                            <i class="fa-regular fa-star p-1" style={{ fontSize: "15px" }}></i>
-                            <i class="fa-regular fa-star p-1" style={{ fontSize: "15px" }}></i>
-                            <i class="fa-regular fa-star p-1" style={{ fontSize: "15px" }}></i>
+                            <i className="fa-regular fa-star p-1" style={{ fontSize: "15px" }}></i>
+                            <i className="fa-regular fa-star p-1" style={{ fontSize: "15px" }}></i>
+                            <i className="fa-regular fa-star p-1" style={{ fontSize: "15px" }}></i>
+                            <i className="fa-regular fa-star p-1" style={{ fontSize: "15px" }}></i>
+                            <i className="fa-regular fa-star p-1" style={{ fontSize: "15px" }}></i>
                         </span>
                         <span className='p-4 text-center'>Click edit button to change this text. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, luctus nec ullamcorper mattis, pulvinar dapibus leo.</span>
                         <div className="d-flex align-items-center p-3">
@@ -30,18 +30,18 @@ export default function MainPage07() {
                         <h1 className='fs-2 text-white p-5 text-center'>Deal Of The Day 15% Off On All Vegetables!</h1>
                         <p className='text-white px-5 text-center'>I am text block. Click edit button to change this tex em ips.</p>
                         <button className='shopBtn mb-4 mt-4'>
-                            <i class="fa-solid fa-arrow-right pe-3"></i>SHOP NOW
+                            <i className="fa-solid fa-arrow-right pe-3"></i>SHOP NOW
                         </button>
                     </div>
                 </div>
                 <div className='col-md-4'>
                     <div className='card shadow-lg border-0 d-flex align-items-center pb-3 mt-5 mx-3'>
                         <span className='d-flex justify-content-center p-1 mt-5'>
-                            <i class="fa-regular fa-star p-1" style={{ fontSize: "15px" }}></i>
-                            <i class="fa-regular fa-star p-1" style={{ fontSize: "15px" }}></i>
-                            <i class="fa-regular fa-star p-1" style={{ fontSize: "15px" }}></i>
-                            <i class="fa-regular fa-star p-1" style={{ fontSize: "15px" }}></i>
-                            <i class="fa-regular fa-star p-1" style={{ fontSize: "15px" }}></i>
+                            <i className="fa-regular fa-star p-1" style={{ fontSize: "15px" }}></i>
+                            <i className="fa-regular fa-star p-1" style={{ fontSize: "15px" }}></i>
+                            <i className="fa-regular fa-star p-1" style={{ fontSize: "15px" }}></i>
+                            <i className="fa-regular fa-star p-1" style={{ fontSize: "15px" }}></i>
+                            <i className="fa-regular fa-star p-1" style={{ fontSize: "15px" }}></i>
                         </span>
                         <span className='p-4 text-center'>Click edit button to change this text. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, luctus nec ullamcorper mattis, pulvinar dapibus leo.</span>
                         <div className="d-flex align-items-center p-3">
