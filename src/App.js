@@ -11,7 +11,8 @@ import React, { useState } from 'react';
 import MainPage06 from './components/MainPage06';
 import MainPage07 from './components/MainPage07';
 import MainPage08 from './components/MainPage08';
-import Alert from './Alert';
+import Alert from './components/Alert';
+import MainPage04 from './components/MainPage04';
 
 function App() {
   const [myBtnStyle, setmyBtnStyle] = useState({
@@ -66,6 +67,16 @@ function App() {
       setAlert(null)
     },3000)
   }
+  const products = [
+    { title: 'Cabbage', id: 1 },
+    { title: 'Garlic', id: 2 },
+    { title: 'Apple', id: 3 },
+  ];
+  const listItems = products.map(product =>
+    <li key={product.id}>
+      {product.title}
+    </li>
+  );
 
   return (
     <>
@@ -74,6 +85,7 @@ function App() {
       <Main ></Main>
       <MainPage02></MainPage02>
       <MainPage03></MainPage03>
+      <MainPage04></MainPage04>
       <MainPage06></MainPage06>
       <MainPage07></MainPage07>
       <MainPage08></MainPage08>
@@ -205,6 +217,7 @@ function App() {
           </div>
         </div>
       </div>
+      <ul>{listItems}</ul>
     </>
   );
 }
