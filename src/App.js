@@ -13,6 +13,7 @@ import MainPage07 from './components/MainPage07';
 import MainPage08 from './components/MainPage08';
 import Alert from './components/Alert';
 import MainPage04 from './components/MainPage04';
+import LoginForm from './components/LoginPage';
 
 function App() {
   const [myBtnStyle, setmyBtnStyle] = useState({
@@ -63,20 +64,10 @@ function App() {
       msg: message,
       type: type
     });
-    setTimeout(()=>{
+    setTimeout(() => {
       setAlert(null)
-    },3000)
+    }, 3000)
   }
-  const products = [
-    { title: 'Cabbage', id: 1 },
-    { title: 'Garlic', id: 2 },
-    { title: 'Apple', id: 3 },
-  ];
-  const listItems = products.map(product =>
-    <li key={product.id}>
-      {product.title}
-    </li>
-  );
 
   return (
     <>
@@ -88,6 +79,7 @@ function App() {
       <MainPage04></MainPage04>
       <MainPage06></MainPage06>
       <MainPage07></MainPage07>
+      <LoginForm></LoginForm>
       <MainPage08></MainPage08>
       <Footer></Footer>
       <div className="offcanvas offcanvas-end d-flex flex-row bg-transparent border-0" style={{ width: "350PX" }} tabindex="-1" id="offcanvasRight" aria-labelledby="offcanvasRightLabel">
@@ -217,7 +209,7 @@ function App() {
           </div>
         </div>
       </div>
-      <ul>{listItems}</ul>
+      
     </>
   );
 }
